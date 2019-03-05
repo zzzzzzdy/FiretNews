@@ -80,7 +80,7 @@ public class FruitActivity extends AppCompatActivity {
     private void initFruitContent()
     {
 
-        Log.d("ccccc","a"+fruitId);
+//        Log.d("ccccc","a"+fruitId);
         HttpConnect httpConnect=new HttpConnect("https://news-at.zhihu.com/api/4/news/"+fruitId);
         httpConnect.sendRequestWithHttpURLConnection(new HttpConnect.Callback() {
             @Override
